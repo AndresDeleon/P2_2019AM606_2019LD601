@@ -58,8 +58,8 @@ namespace P2_2019AM606_2019LD601.Controllers
                         {
                             ID_CASOS_REPORTADOS = m.ID_CASOS_REPORTADOS,
                             CONFIRMADOS = m.CONFIRMADOS,
-                            NOMBRE = d.NOMBRE,
-                            NOMBRE_DEP = g.NOMBRE,
+                            NOMBRE = g.NOMBRE,
+                            NOMBRE_DEP = d.NOMBRE,
                             FALLECIDOS = m.FALLECIDOS,
                             RECUPERADOS = m.RECUPERADOS
                         };
