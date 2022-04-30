@@ -1,20 +1,25 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Documentos\\Universidad\\DPWA2022\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601.csproj": {}
+    "C:\\Users\\Mery Acevedo\\Desktop\\PARCIAL2\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601.csproj": {}
   },
   "projects": {
-    "D:\\Documentos\\Universidad\\DPWA2022\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601.csproj": {
+    "C:\\Users\\Mery Acevedo\\Desktop\\PARCIAL2\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Documentos\\Universidad\\DPWA2022\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601.csproj",
+        "projectUniqueName": "C:\\Users\\Mery Acevedo\\Desktop\\PARCIAL2\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601.csproj",
         "projectName": "P2_2019AM606_2019LD601",
-        "projectPath": "D:\\Documentos\\Universidad\\DPWA2022\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601.csproj",
-        "packagesPath": "C:\\Users\\aldac\\.nuget\\packages\\",
-        "outputPath": "D:\\Documentos\\Universidad\\DPWA2022\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601\\obj\\",
+        "projectPath": "C:\\Users\\Mery Acevedo\\Desktop\\PARCIAL2\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601.csproj",
+        "packagesPath": "C:\\Users\\Mery Acevedo\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Mery Acevedo\\Desktop\\PARCIAL2\\P2_2019AM606_2019LD601\\P2_2019AM606_2019LD601\\obj\\",
         "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
         "configFilePaths": [
-          "C:\\Users\\aldac\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Mery Acevedo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -67,7 +72,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.407\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

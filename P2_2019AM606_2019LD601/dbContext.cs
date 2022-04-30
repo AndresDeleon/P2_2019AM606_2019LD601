@@ -14,8 +14,8 @@ namespace P2_2019AM606_2019LD601
 
         }
 
-        /*public DbSet<CasosReportados> CasosReportados { get; set; }
+        public DbSet<CasosReportados> CasosReportados { get; set; }
         public DbSet<Departamentos> Departamentos { get; set; }
-        public DbSet<Generos> Generos { get; set; }*/
+        public DbSet<Generos> Generos { get; set; }
     }
 }

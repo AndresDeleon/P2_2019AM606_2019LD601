@@ -10,7 +10,7 @@ namespace P2_2019AM606_2019LD601.Models
     public class CasosReportados
     {
         [Key]
-        public int ID { get; set; }
+        public int ID_CASOS_REPORTADOS { get; set; }
 
         public int CONFIRMADOS { get; set; }
         public int RECUPERADOS { get; set; }

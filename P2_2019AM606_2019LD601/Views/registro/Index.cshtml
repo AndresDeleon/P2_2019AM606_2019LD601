@@ -1,6 +1,69 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-@{
-}
-<h2>Registro de Covid</h2>
+﻿@model IEnumerable<CasosReportados>
+
+
+
+<div class="container">
+    <h2>Registro de Covid</h2>
+
+    <form action="/" method="post">
+    </form>
+
+    <table class="table" id="table_id">
+        <thead>
+            <tr>
+
+                <th>
+                    Departamentos
+                </th>
+                <th>
+                    Genero
+                </th>
+                <th>
+                    Confirmados
+                </th>
+                <th>
+                    Recuperados
+                </th>
+                <th>
+
+                    Fallecidos
+                </th>
+
+
+            </tr>
+        </thead>
+        <tbody>
+            @foreach (var item in Model)
+            {
+                <tr>
+
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NOMBRE_DEP)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.NOMBRE)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.CONFIRMADOS)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.RECUPERADOS)
+                    </td>
+                    <td>
+                        @Html.DisplayFor(modelItem => item.FALLECIDOS)
+
+                    <td>
+                    </td>
+
+                </tr>
+            }
+        </tbody>
+    </table>
+
+
+
+</div>
+
+
+
+
